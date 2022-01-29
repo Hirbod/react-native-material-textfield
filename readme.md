@@ -41,7 +41,7 @@ Material texfield with consistent behaviour on iOS and Android
 ## Installation
 
 ```bash
-npm install --save react-native-material-textfield
+npm install --save @hirbod/react-native-material-textfield
 ```
 
 ## Usage
@@ -156,15 +156,6 @@ Other [TextInput][rn-textinput] properties will also work.
  isDefaultVisible()     | Get default value visibility  | Boolean
  isPlaceholderVisible() | Get placeholder visibility    | Boolean
  setValue()             | Set current value             |       -
-
-## Example
-
-```bash
-git clone https://github.com/n4kz/react-native-material-textfield
-cd react-native-material-textfield/example
-npm install
-npm run ios # or npm run android
-```
 
 ## Copyright and License
 
