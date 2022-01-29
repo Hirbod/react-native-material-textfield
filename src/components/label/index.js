@@ -115,7 +115,7 @@ export default class Label extends PureComponent {
 
     return (
       <Animated.View onLayout={(e) => { this.setState({ layout: e.nativeEvent.layout }) }} style={containerStyle}>
-        <Animated.Text style={[styles.text, style, textStyle]} {...props}>
+        <Animated.Text style={[styles.text, textStyle, style]} {...props}>
           {label}
         </Animated.Text>
       </Animated.View>
