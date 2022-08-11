@@ -1,6 +1,6 @@
 {
   "name": "@hirbod/react-native-material-textfield",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "BSD-3-Clause",
   "author": "Alexander Nazarov <n4kz@n4kz.com>",
   "description": "Material textfield for React Native",
@@ -32,10 +32,11 @@
     "url": "git://github.com/Hirbod/react-native-material-textfield.git"
   },
   "dependencies": {
+    "deprecated-react-native-prop-types": "^2.3.0",
     "prop-types": "^15.5.9"
   },
   "peerDependencies": {
-    "react": ">=16.3.0",
+    "react": "^16.3.0 || ^17.0.0 || ^18.0.0",
     "react-native": ">=0.55.0"
   },
   "devDependencies": {
