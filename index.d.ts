@@ -7,13 +7,8 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.8
 
-import * as React from 'react';
-import {
-  StyleProp,
-  TextInputProps,
-  TextStyle,
-  ViewStyle,
-} from 'react-native';
+import * as React from "react";
+import { StyleProp, TextInputProps, TextStyle, ViewStyle } from "react-native";
 
 export interface ContentInset {
   top?: number;
@@ -68,8 +63,8 @@ export interface TextFieldProps extends TextInputProps {
   renderLeftAccessory?(): JSX.Element | boolean;
   renderRightAccessory?(): JSX.Element | boolean;
 
-  lineType?: 'solid' | 'dotted' | 'dashed' | 'none';
-  disabledLineType?: 'solid' | 'dotted' | 'dashed' | 'none';
+  lineType?: "solid" | "dotted" | "dashed" | "none";
+  disabledLineType?: "solid" | "dotted" | "dashed" | "none";
 
   editable?: boolean;
   multiline?: boolean;
